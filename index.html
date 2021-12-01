@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Checkpoint II</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <h1>Belo Horizonte</h1>
+        </div>
+        <form action="/registro" method="post" class = "form">
+          <div class = "form">
+            <label for="nome"> Nome </label>
+            <div>
+                <input class="caixas" type="text" name="nome" id="nome" maxlength="100">
+            </div>
+            <label for="Email"> Email</label>
+            <div>
+                <input class="caixas" type="email" name="email" id="email">
+            </div>
+            <label for="telefone"> Telefone </label>
+            <div>
+                <input class="caixas" type="tel" name="telefone" id="telefone">
+            </div>
+            <label for="data-de-nascimento"> Data de Nascimento</label>
+            <div>
+                <input class="caixas" type="date" name="data" id="data">
+          </div>
+
+            <div class="form">
+                <h3>É maior de idade?</h2>
+                <div>
+                    <input type="radio" name="maior-idade">
+                    <label for="idade">Sim, tenho mais de 18 anos.</label>
+                </div>
+                <div>
+                    <input type="radio" name="maior-idade">
+                    <label for="idade">Não, tenho menos de 18 anos.</label>
+                </div>
+            </div>
+            
+            <div class="form">
+                <h3>Qual é o seu ponto turístico de interesse na cidade?</h3>
+                <img class = "img" src="./img/praça-liberdade.jpg" alt="">
+                <div>
+                    <input type="radio" name="turistico">
+                    <label for="postal"> Praça Da Liberdade </label>
+                </div>
+                <img class = "img" src="./img/estadio-mineirao.jpeg" alt="">
+                <div> 
+                    <input type="radio" name="turistico">
+                    <label for="postal">Estádio/Mineirão</label>
+                </div>
+                <img class = "img" src="./img/pampulha.jpg" alt="">
+                <div> 
+                    <input type="radio" name="turistico">
+                    <label for="postal">Lagoa Da Pampulha</label>
+                </div>
+            </div>
+
+            <div class="form">
+                <h3>Você é:</h3>
+                <div>
+                    <input type="checkbox" name="interesse">
+                    <label for="interesse">Turista</label>
+                </div>
+                <div>
+                   <input type="checkbox" name="interesse">
+                    <label for="interesse">Residente</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="interesse">
+                     <label for="interesse">Estudante</label>
+                 </div>
+            </div>
+
+            <div>
+                <button class = "button" type="reset"> Reset </button>
+                <button class = "button" type="submit"> Enviar </button> 
+            </div>
+
+            <div class= "fim">
+                <p>Planos para as férias? Aproveite e venha conhecer!</p>
+                <a href="https://www.trivago.com.br/?themeId=524&iPathId=77213&sem_keyword=viagem%20belo%20horizonte&sem_creativeid=524507213038&sem_matchtype=p&sem_network=g&sem_device=c&sem_placement=&sem_target=&sem_adposition=&sem_param1=&sem_param2=&sem_campaignid=11500875522&sem_adgroupid=115015404169&sem_targetid=aud-556299735524%3Akwd-299026546682&sem_location=9074240&cipc=sem&cip=5519000318&gclid=Cj0KCQiAkZKNBhDiARIsAPsk0Wi3G3P5mSw1lJEOzyx_0E0_YafDVk8r5LZTiaIwzLjbfYWpbUL8PS8aAmO1EALw_wcB">Pacotes de Viagem para Belo Horizonte</a>
+            </div>
+            <a class = "instagram" href="https://www.instagram.com/belohorizontemg/?hl=pt-br"><button></button><img class = "instagram" src="/img/instagram.png" alt=""></a>
+            </div>
+            <p> Produzido por: </p>
+            <div class="nomes">
+              <p class="nome1">Alícia de Oliveira</p>
+              <p class="nome2">Gláucia Ximenes</p>
+              <p class="nome3">Douglas Araújo</p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
